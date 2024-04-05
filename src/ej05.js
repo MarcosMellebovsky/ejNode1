@@ -7,6 +7,7 @@ console.log(miObjeto);
 function parsearUrl(laURL) {
   let urlObjeto = new URL(laURL);
   let params = {};
+  
   // Obtener los componentes de la URL
   params.host = urlObjeto.origin;
   params.ruta = urlObjeto.pathname;
